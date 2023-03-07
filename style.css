@@ -10,6 +10,10 @@ html, body {
   justify-content: center;
   align-items: center;
   background-color: #FFC568;
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-size: 62.5%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -37,14 +41,14 @@ html, body {
 
 .line {
   fill: none;
-  stroke: #FFFFFF;
+  stroke: red;
   stroke-width: 8;
   stroke-linecap: round;
   stroke-miterlimit: 10;
 }
 
 .lttr {
-  fill: #763C8C;
+  fill: #fff;
 }
 
 .sound {
@@ -58,4 +62,18 @@ html, body {
 }
 .sound--off {
   text-decoration: line-through;
+}
+.name {
+  color: #fff;
+  font-size: 50px;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+  left: 150px;
+}
+.love {
+  position: relative;
+  left: 150px;
+  font-size: 80px;
+  color: red;
 }
